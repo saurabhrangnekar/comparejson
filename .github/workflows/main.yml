@@ -21,4 +21,4 @@ jobs:
       with:
         ftp-server: ftp://ftp.dlptest.com/sar
         ftp-username: dlpuser@dlptest.com
-        ftp-password: SzMf7rTE4pCrf9dV286GuNe4N
+        ftp-password: {{FTP_PASSWORD}}
