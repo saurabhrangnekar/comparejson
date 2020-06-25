@@ -21,6 +21,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server: ftp://ftp.dlptest.com/sarUAT
+        ftp-server: ftp://ftp.dlptest.com/sarDev
         ftp-username: dlpuser@dlptest.com
         ftp-password: ${{secrets.FTP_PASSWORD}}
